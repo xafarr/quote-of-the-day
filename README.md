@@ -15,5 +15,6 @@ Import the project in your IDE as maven project and run it as you would run a no
 
 
 # Explanation
-
+In terms of technology I have used Spring Boot, Hibernate, H2 as in memory database and Thymeleaf as view technology instead of JSP.
+Thymeleaf is very powerful natural template technology.
 
