@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by xafarr on 9/03/2016.
+ * @author Muhammad Zafar
  */
 @Service
 public class QuoteService {
@@ -18,6 +18,10 @@ public class QuoteService {
         this.quoteRepository = quoteRepository;
     }
 
+    /**
+     * @apiNote Service class that talks to DAO object and provides service to Controller.
+     * @return Quote
+     */
     public Quote getRandomQuote() {
         return quoteRepository.findQuoteOfTheDay();
     }

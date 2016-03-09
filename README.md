@@ -11,5 +11,9 @@ directory. Run the following command:
  **mvn spring-boot:run**
  
 ## 2. Running through IDE (Eclipse, Netbeans, IntelliJ IDEA)
-Import the project in your IDE as maven project and run it as would run a normal console java application.
+Import the project in your IDE as maven project and run it as you would run a normal console java application.
+
+
+# Explanation
+
 
